@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sports.com | Register</title>
+    <link rel="icon" href="img/Website Logo/Website_logo.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Login.css">
+</head>
+
+<body>
+    <span class="openNav" onclick="openNav()">&#10097;&#10097; </span>  
+  <div class="bar" style="position: sticky; top: 0; left: 90%; background-color: #000000; z-index: 4; width: 100%; height: 50px; ">
+      <img style="width:40px; position: absolute; left: 90%;  z-index: 6; margin-bottom: 100px; " src="img/Website Logo/Website_logo.png" alt="">
+    
+<a class="links" href="Login.html">Log in</a>
+    </div> 
+    <div class="container-fluid" style="background-color: #E8E8E8; background-repeat: no-repeat; background-attachment: fixed; 
+    background-image: url(img/Background/Background2.jpg); background-size: cover;">
+
+        <!--start container-->
+        <div class="container" style="background-color: white;">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#10096;&#10096;</a>
+                <a href="Home.html">Home</a>
+                <a href="Football.html">Football </a>
+                <a href="Tennis.html">Tennis </a>
+                <a href="Squash.html">Squash</a>
+                <a href="Basketball.html">Basketball</a>
+                <a href="About.html">About</a>
+                
+      
+              </div>
+
+            <div id="Login" class="contactsection">
+                <div class="contact1">
+                    <div class="container">
+
+                         <br>
+                        <form method="POST" name="Form">
+                            <h4 style="font-weight: 900;">Sports<span class="dot">.</span><span
+                                    style="color: #03B253;">com</span></span> </h4>
+                            <hr>
+                            <img style="margin-left:140px;" src="img/Login/Login.png" alt="">
+                            <div class="first-name"
+                                > 
+                                <input type="text" name="username" placeholder="Email Address">
+                            </div> 
+                            <div class="first-name"
+                                >
+                                <input type="text" name="username2" placeholder="Confirm  Address">
+                            </div>
+
+
+                            <div class="first-name"> 
+                                <input type="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="first-name"> 
+                                <input type="password" name="password" placeholder="Confirm  password">
+                            </div>
+                            <br>
+
+                            <input style="width: 15px; cursor: pointer;" type="checkbox" name="" id="">
+                            <label for="remember"> I am 13 years of age or older and agree to the terms of the <a
+                                    href="#" style="text-decoration: unset; color: #03B253;">Sports.com</a> and the <a
+                                    href="#" style="text-decoration: unset; color: #03B253;">Valve Privacy Policy</a>.
+
+                            </label>
+                           
+                            <!-- </div><div class="subject"></div> -->
+                            <br> <br>
+                            <input style="margin-left:140px; padding: 15px 80px;" type="button" class="button" value="Sign up" onclick="validRegister(event)">
+                            <hr>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <footer>
+
+            <p class="Footer">Sports.com &copy; All rights reserved | 2020-2021 </p>
+        </footer>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
